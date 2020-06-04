@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Login"
+    android:orientation="vertical"
+    android:background="#009688"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#9C27B0"
+        />
+
+    <EditText
+
+        android:layout_margin="20dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textColorHint="@color/colorAccent"
+        android:background="@drawable/background"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_email_black_24dp"
+
+
+        />
+    <EditText
+
+        android:layout_margin="20dp"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:drawableRight="@drawable/ic_vpn_key_black_24dp"
+
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="150dp"
+        android:background="@drawable/background"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textColorHighlight="#2196F3"
+
+
+
+        />
+
+
+
+
+</LinearLayout>
